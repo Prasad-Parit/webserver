@@ -1,0 +1,22 @@
+3 Steps for configuring a my kind of server :
+------------------------------------------
+SERVER SIDE:
+
+1]Installing the server software
+  #yum install httpd
+2]Configuring server
+ #cat >index.html
+  xyz message
+3]Starting the server
+  #systemctl start httpd
+_------------------------------------------
+CLIENT SIDE:
+1) Installing client software 
+Google web browser is already available
+
+2)connecting to the server
+http://192.168.1.10/index.html
+-----------------------------------------------
+
+Try to do the same thing by launching an OS in AWS Cloud and launch the webserver
+
